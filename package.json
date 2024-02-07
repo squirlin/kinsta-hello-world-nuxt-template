@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "nuxt build && nuxt start",
+    "build": "nuxt generate",
+    "generate": "nuxt generate",
+    "start": "serve ./.output/public"
+  },
+  "dependencies": {
+    "nuxt": "^3.0.0",
+    "serve": "^14.1.2"
+  }
+}
